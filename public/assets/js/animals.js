@@ -30,7 +30,7 @@ const getAnimals = (formData = {}) => {
   });
 
   console.log(queryUrl);
-  
+
   fetch(queryUrl)
   .then(response => {
     if (!response.ok) {
@@ -76,3 +76,4 @@ const handleGetAnimalsSubmit = event => {
 $animalForm.addEventListener('submit', handleGetAnimalsSubmit);
 
 getAnimals();
+git 
